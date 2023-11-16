@@ -1,0 +1,43 @@
+#originals,
+#trading-now {
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+}
+.content-own,
+.content-two {
+    position: absolute;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.content-own div {
+    margin: 10px 15px;
+}
+
+.content-own div img,
+.content-two div img {
+    width: 150px;
+    height: 240px;
+    transition: all 0.2s linear;
+}
+.content-own div:hover img,
+.content-two div:hover img {
+    transform: scale(1.2);
+}
+
+#trading-now {
+    margin-top: 320px;
+}
+
+ /* {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.content-two div {
+    margin: 330px 15px;
+}

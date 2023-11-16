@@ -1,0 +1,58 @@
+/* .header {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.header {
+    height: 50vh;
+    background: url(https://occ-0-1361-993.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbUy_lqSAoNWedB7gQ5tIThwxkfo-3VoQKANCnJ3kvoKE9necbxEHogaJlG90Y0Zi7j2PNHfzekwXqGPRLWm1s7FwZLDDlU9EDZY.webp?r=a82);
+}
+
+.header:before {
+    content: '';
+    background: linear-gradient(to top, black, transparent);
+    position: absolute;
+    bottom: 330px;
+    height: 50%;
+    width: 100%;
+}
+
+.header-icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.logo {
+    color: red;
+    font-size: 20px;
+}
+
+.user {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(14, 126, 128);
+}
+
+.main-content-info {
+    position: absolute;
+    top: 100px;
+    margin-left: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.play-button,
+.my__list-button {
+    padding: 5px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+
+}
+
